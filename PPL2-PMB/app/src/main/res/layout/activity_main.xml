@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ppljoss.ppl2_pmb.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/layoutbar"
+        android:orientation="vertical" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutimage"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/layoutbarMain">
+
+        <ViewFlipper
+            android:id="@+id/v_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ViewFlipper>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/linearlayoutimage"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="About Us"
+            android:layout_marginLeft="-20dp"
+            android:drawableTop="@drawable/ic_about"
+            android:background="@null"/>
+
+        <Button
+            android:id="@+id/button_fakultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Fakultas"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_faculty"
+            android:background="@null"/>
+
+        <Button
+            android:id="@+id/button_riset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riset dan \nPublikasi"
+            android:drawableTop="@drawable/ic_riset"
+            android:layout_marginLeft="20dp"
+            android:background="@null" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/linearlayoutbutton1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_kantor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_internasional"
+            android:text="Kantor \nInternasional" />
+
+        <Button
+            android:id="@+id/button_kemahasiswaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-30dp"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_kemahasiswaan"
+            android:text="Kemahasiswaan" />
+
+
+        <Button
+            android:id="@+id/button_sdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_kantor"
+            android:text="SDM"
+            android:drawableTop="@drawable/ic_sdm"
+            android:background="@null" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutbutton3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/linearlayoutbutton2"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_berita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-20dp"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_berita"
+            android:text="Berita Terkini" />
+
+
+        <Button
+            android:id="@+id/button_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Website"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_web"
+            android:background="@null"/>
+
+        <Button
+            android:id="@+id/button_pendaftaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_pendaftaran"
+            android:background="@null"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

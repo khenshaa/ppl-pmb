@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fakultas"
+    android:background="@drawable/bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Daftar Fakultas UAI"
+            android:textSize="30sp"
+            android:id="@+id/fak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/button_fst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fak"
+            android:text="Fakultas Sains dan Teknologi"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/button_hukum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_fst"
+            android:text="Fakultas Hukum"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/button_feb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_hukum"
+            android:text="Fakultas Ekonomi dan Bisnis"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/button_fispol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_feb"
+            android:text="Fakultas Ilmu Sosial dan Ilmu Politik"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/button_pgpaud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_fispol"
+            android:text="Fakultas Psikologi dan Pendidikan"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/button_sasbud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_pgpaud"
+            android:text="Fakultas Ilmu Pengetahuan Budaya"
+            android:layout_marginBottom="15dp"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

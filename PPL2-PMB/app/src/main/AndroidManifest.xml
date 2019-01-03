@@ -11,13 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme2">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity">
         <activity android:name=".kemahasiswaan" />
         <activity android:name=".risetpublikasi" />
         <activity android:name=".About" />
@@ -27,7 +28,13 @@
         <activity android:name=".Faculty.Fst" />
         <activity android:name=".Faculty.Hukum" />
         <activity android:name=".Faculty.PgPaud" />
-        <activity android:name=".Faculty.SasBud"></activity>
+        <activity android:name=".Faculty.SasBud" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

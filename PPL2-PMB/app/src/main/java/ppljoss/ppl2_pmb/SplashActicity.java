@@ -8,7 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActicity extends AppCompatActivity {
 
     private TextView tv;
     private ImageView iv;
@@ -18,7 +18,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        setContentView(R.layout.activity_splash);
 
         tv = (TextView) findViewById(R.id.tv) ;
         iv = (ImageView) findViewById(R.id.iv);
@@ -40,7 +39,5 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
         timer.start();
-
-
     }
 }

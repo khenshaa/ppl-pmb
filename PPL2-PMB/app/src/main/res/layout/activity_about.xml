@@ -9,6 +9,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp">
 
+
     <ScrollView
         android:id="@+id/scView"
         android:layout_width="match_parent"
@@ -26,17 +27,11 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/img_about1" />
 
-            <TextView
-                android:id="@+id/heading"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_below="@id/uai"
-                android:text="About" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/heading"
+                android:layout_below="@+id/uai"
                 android:id="@+id/subb"
                 android:text="@string/article1" />
 

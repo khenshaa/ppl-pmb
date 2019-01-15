@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
 public class MainActivity extends AppCompatActivity {
-    public Button btn_kemahasiswaan, btn_risetpublikasi,btn_about,btn_fakultas, btn_berita;
+    public Button btn_kemahasiswaan, btn_risetpublikasi, btn_about, btn_fakultas, btn_berita, btn_kantor, btn_SDM, btn_website;
     public ViewFlipper v_flipper;
 
     @Override
@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         init_About();
         init_Fakultas();
         init_Berita();
+        init_SDM();
+        init_kantor();
+        init_webuai();
 
 
         v_flipper= (ViewFlipper) findViewById(R.id.v_flipper);
@@ -95,6 +98,45 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void init_SDM() {
+        btn_SDM = (Button) findViewById(R.id.button_sdm);
+        btn_SDM.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tosdm = new Intent(MainActivity.this, SDMactivity.class);
+
+                startActivity(tosdm);
+            }
+        });
+    }
+
+    private void init_kantor() {
+        btn_kantor = (Button) findViewById(R.id.button_kantor);
+        btn_kantor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tokantorinter = new Intent(MainActivity.this, KantorInternasional.class);
+
+                startActivity(tokantorinter);
+            }
+        });
+    }
+
+    private void init_webuai() {
+        btn_website = (Button) findViewById(R.id.button_website);
+        btn_website.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent towebuai = new Intent(MainActivity.this, WebsiteUAIactivity.class);
+
+                startActivity(towebuai);
+            }
+        });
+    }
+
+
+
 
 
     public void  flipperImages(int image){

@@ -16,6 +16,8 @@ public class BeritaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_berita);
 
         recyclerView_berita = (RecyclerView) findViewById(R.id.recyclerview_berita);
+
+
         //Call Read rss asyntask to fetch rss
         ReadRss readRss = new ReadRss(this, recyclerView_berita);
         readRss.execute();

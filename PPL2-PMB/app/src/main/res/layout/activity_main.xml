@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ppljoss.ppl2_pmb.MainActivity">
+    tools:context="ppljoss.ppl2_pmb.MainActivity"
+    android:background="#133446">
 
     <LinearLayout
         android:id="@+id/layoutbarMain"
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:background="@drawable/layoutbar"
+        android:background="@drawable/uaiheader1"
         android:orientation="vertical" />
 
 
@@ -48,7 +49,8 @@
             android:text="About Us"
             android:layout_marginRight="10dp"
             android:drawableTop="@drawable/ic_about"
-            android:background="@null"/>
+            android:background="@null"
+            android:textColor="#FFFF" />
 
         <Button
             android:id="@+id/button_fakultas"
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="Fakultas"
+            android:textColor="#FFF"
             android:layout_marginLeft="20dp"
             android:drawableTop="@drawable/ic_faculty"
             android:background="@null"/>
@@ -64,6 +67,7 @@
             android:id="@+id/button_riset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FFF"
             android:text="Riset dan \nPublikasi"
             android:drawableTop="@drawable/ic_riset"
             android:layout_marginLeft="20dp"
@@ -88,7 +92,8 @@
             android:layout_marginRight="50dp"
             android:background="@null"
             android:drawableTop="@drawable/ic_internasional"
-            android:text="Kantor \nInternasional" />
+            android:text="Kantor \nInternasional"
+            android:textColor="#FFFF" />
 
         <Button
             android:id="@+id/button_kemahasiswaan"
@@ -97,7 +102,8 @@
             android:layout_marginLeft="-30dp"
             android:background="@null"
             android:drawableTop="@drawable/ic_kemahasiswaan"
-            android:text="Kemahasiswaan" />
+            android:text="Kemahasiswaan"
+            android:textColor="#FFF" />
 
 
         <Button
@@ -106,6 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/button_kantor"
             android:text="SDM"
+            android:textColor="#FFFF"
             android:drawableTop="@drawable/ic_sdm"
             android:background="@null" />
 
@@ -131,7 +138,8 @@
             android:layout_marginLeft="-20dp"
             android:background="@null"
             android:drawableTop="@drawable/ic_berita"
-            android:text="Berita UAI" />
+            android:text="Berita UAI"
+            android:textColor="#FFFF" />
 
 
         <Button
@@ -142,7 +150,8 @@
             android:text="Website"
             android:layout_marginLeft="20dp"
             android:drawableTop="@drawable/ic_web"
-            android:background="@null"/>
+            android:background="@null"
+            android:textColor="#FFFF" />
 
         <Button
             android:id="@+id/button_pendaftaran"
@@ -151,7 +160,8 @@
             android:text="Pendaftaran"
             android:layout_marginLeft="20dp"
             android:drawableTop="@drawable/ic_pendaftaran"
-            android:background="@null"/>
+            android:background="@null"
+            android:textColor="#FFFF" />
 
 
     </LinearLayout>

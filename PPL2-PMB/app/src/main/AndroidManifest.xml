@@ -29,7 +29,10 @@
         <activity android:name=".Faculty.PgPaud" />
         <activity android:name=".Faculty.SasBud" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".BeritaActivity"></activity>
+        <activity android:name=".BeritaActivity" />
+        <activity android:name=".SDMactivity" />
+        <activity android:name=".KantorInternasional" />
+        <activity android:name=".WebsiteUAIactivity"></activity>
     </application>
 
 </manifest>

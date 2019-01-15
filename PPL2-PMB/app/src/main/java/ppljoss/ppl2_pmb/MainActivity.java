@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         init_risetpublikasi();
         init_About();
         init_Fakultas();
-
+        init_Berita();
 
 
         v_flipper= (ViewFlipper) findViewById(R.id.v_flipper);
@@ -80,6 +80,18 @@ public class MainActivity extends AppCompatActivity {
                 Intent tofakultas = new Intent(MainActivity.this, Fakultas.class);
 
                 startActivity(tofakultas);
+            }
+        });
+    }
+
+    private void init_Berita() {
+        btn_berita = (Button) findViewById(R.id.button_berita);
+        btn_berita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toberita = new Intent(MainActivity.this, BeritaActivity.class);
+
+                startActivity(toberita);
             }
         });
     }

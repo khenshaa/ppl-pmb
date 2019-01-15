@@ -28,7 +28,8 @@
         <activity android:name=".Faculty.Hukum" />
         <activity android:name=".Faculty.PgPaud" />
         <activity android:name=".Faculty.SasBud" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BeritaActivity"></activity>
     </application>
 
 </manifest>

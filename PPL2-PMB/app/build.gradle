@@ -31,5 +31,8 @@ dependencies {
     compile 'com.daimajia.easing:library:2.0@aar'
     compile 'com.daimajia.androidanimations:library:2.3@aar'
     compile 'com.squareup.picasso:picasso:2.5.2'
+
+    compile 'com.ms-square:expandableTextView:0.1.4'
+    compile 'com.borjabravo:readmoretextview:2.0.1'
     testCompile 'junit:junit:4.12'
 }

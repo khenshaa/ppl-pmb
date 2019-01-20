@@ -4,25 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroung_uai_pmb"
     tools:context="ppljoss.ppl2_pmb.MainActivity"
-    android:background="#133446">
-
-    <LinearLayout
-        android:id="@+id/layoutbarMain"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:background="@drawable/uaiheader1"
-        android:orientation="vertical" />
-
-
+    android:id="@+id/main_layout_home"
+    android:drawingCacheQuality="high">
 
 
     <LinearLayout
         android:id="@+id/linearlayoutimage"
-        android:layout_width="match_parent"
+        android:layout_width="360dp"
         android:layout_height="160dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/layoutbarMain">
+            android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp">
 
         <ViewFlipper
             android:id="@+id/v_flipper"
@@ -31,140 +24,133 @@
 
     </LinearLayout>
 
-
-    <LinearLayout
-        android:id="@+id/linearlayoutbutton1"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="35dp"
-        android:layout_below="@+id/linearlayoutimage"
-        android:gravity="center"
-        android:orientation="horizontal">
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp">
 
         <Button
             android:id="@+id/button_about"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="About Us"
-            android:layout_marginRight="10dp"
-            android:drawableTop="@drawable/ic_about"
+            android:layout_column="0"
+            android:layout_row="0"
             android:background="@null"
+            android:drawableTop="@drawable/info"
+            android:drawablePadding="5sp"
+            android:layout_gravity="center_horizontal"
+            android:text="About Us"
+            android:layout_margin="4dp"
+            android:drawingCacheQuality="high"
             android:textColor="#FFFF" />
 
         <Button
             android:id="@+id/button_fakultas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:drawableTop="@drawable/department"
+            android:layout_gravity="center_horizontal"
             android:text="Fakultas"
-            android:textColor="#FFF"
-            android:layout_marginLeft="20dp"
-            android:drawableTop="@drawable/ic_faculty"
-            android:background="@null"/>
-
-        <Button
-            android:id="@+id/button_riset"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#FFF"
-            android:text="Riset dan \nPublikasi"
-            android:drawableTop="@drawable/ic_riset"
-            android:layout_marginLeft="20dp"
-            android:background="@null" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/linearlayoutbutton2"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:layout_below="@+id/linearlayoutbutton1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button_kantor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="50dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_margin="4dp"
+            android:drawablePadding="5sp"
             android:background="@null"
-            android:drawableTop="@drawable/ic_internasional"
-            android:text="Kantor \nInternasional"
-            android:textColor="#FFFF" />
-
-        <Button
-            android:id="@+id/button_kemahasiswaan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="-30dp"
-            android:background="@null"
-            android:drawableTop="@drawable/ic_kemahasiswaan"
-            android:text="Kemahasiswaan"
-            android:textColor="#FFF" />
-
-
-        <Button
-            android:id="@+id/button_sdm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/button_kantor"
-            android:text="SDM"
             android:textColor="#FFFF"
-            android:drawableTop="@drawable/ic_sdm"
-            android:background="@null" />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/linearlayoutbutton3"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:layout_below="@+id/linearlayoutbutton2"
-        android:orientation="horizontal">
-
-
-        <Button
-            android:id="@+id/button_berita"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="-20dp"
-            android:background="@null"
-            android:drawableTop="@drawable/ic_berita"
-            android:text="Berita UAI"
-            android:textColor="#FFFF" />
-
-
-        <Button
-            android:id="@+id/button_website"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="Website"
-            android:layout_marginLeft="20dp"
-            android:drawableTop="@drawable/ic_web"
-            android:background="@null"
-            android:textColor="#FFFF" />
+            android:drawingCacheQuality="high" />
 
         <Button
             android:id="@+id/button_pendaftaran"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="5sp"
+            android:drawableTop="@drawable/registration"
             android:text="Pendaftaran"
-            android:layout_marginLeft="20dp"
-            android:drawableTop="@drawable/ic_pendaftaran"
+            android:layout_margin="4dp"
+            android:textColor="#FFFF"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:drawingCacheQuality="high" />
+
+        <Button
+            android:id="@+id/button_riset"
+            android:layout_gravity="center_horizontal"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:textColor="#FFF"
+            android:text="Riset dan \nPublikasi"
+            android:drawablePadding="5sp"
+            android:background="@null"
+            android:layout_margin="4dp"
+            android:drawableTop="@drawable/riset"
+            android:drawingCacheQuality="high" />
+
+        <Button
+            android:id="@+id/button_kemahasiswaan"
+            android:text="Kemahasiswaan"
+            android:drawablePadding="5sp"
+            android:drawableTop="@drawable/mahasiswaan"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:background="@null"
+            android:textColor="#FFFF"
+            android:layout_margin="4dp"
+            android:drawingCacheQuality="high" />
+
+        <Button
+            android:id="@+id/button_kantor"
+            android:layout_gravity="center_horizontal"
+            android:text="Kantor \nInternasional"
+            android:drawableTop="@drawable/international"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:layout_margin="4dp"
+            android:drawablePadding="5sp"
+            android:background="@null"
+            android:textColor="#FFFF"
+            android:drawingCacheQuality="high" />
+
+        <Button
+            android:id="@+id/button_sdm"
+            android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/sdm"
+            android:text="SDM"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:background="@null"
+            android:textColor="#FFFF"
+            android:layout_margin="4dp"
+            android:drawingCacheQuality="high" />
+
+        <Button
+            android:id="@+id/button_berita"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/news"
+            android:text="Berita UAI"
+            android:drawablePadding="5sp"
+            android:textColor="#FFFF"
+            android:background="@null"
+            android:layout_margin="4dp"
+            android:drawingCacheQuality="high" />
+
+        <Button
+            android:id="@+id/button_website"
+            android:layout_gravity="center_horizontal"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:drawablePadding="5sp"
+            android:layout_margin="4dp"
+            android:drawableTop="@drawable/internet"
+            android:text="Website"
+            android:drawingCacheQuality="high"
             android:background="@null"
             android:textColor="#FFFF" />
 
 
-    </LinearLayout>
+    </GridLayout>
 
 
 

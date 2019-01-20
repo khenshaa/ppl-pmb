@@ -151,8 +151,6 @@ public class MainActivity extends AppCompatActivity {
         v_flipper.setInAnimation(this, android.R.anim.slide_in_left);
         v_flipper.setOutAnimation(this, android.R.anim.slide_out_right);
 
-
-
     }
 
 

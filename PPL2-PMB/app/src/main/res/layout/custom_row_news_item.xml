@@ -42,17 +42,24 @@
             android:lines="1"
             android:textAppearance="?android:attr/textAppearanceLargeInverse" />
 
-        <TextView
-            android:ellipsize="end"
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
             android:id="@+id/description_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:trimExpandedText="Read more"
+            app:trimCollapsedText="Read less"
+            app:trimMode="trimModeLine"
+            app:trimLines="4"
+
+            android:layout_below="@+id/thumb_img"
             android:layout_margin="16dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginTop="14dp"
-            android:layout_below="@+id/thumb_img"
             android:layout_alignRight="@+id/date_text"
             android:layout_alignEnd="@+id/date_text" />
+
+
     </RelativeLayout>
 
 

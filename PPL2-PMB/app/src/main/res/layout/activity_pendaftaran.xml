@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ppljoss.ppl2_pmb.Pendaftaran"
+    android:background="@drawable/backgroung_uai_pmb">
+
+    <Button
+        android:id="@+id/btn_login_pendaftaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/login"
+        android:text="Login"
+        android:textColor="#FFFF"
+        android:background="@null"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutimage_pendaftaran"
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp">
+
+        <ViewFlipper
+            android:id="@+id/v_flipper_pendaftaran"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout_btn_pendaftaran"
+        android:layout_below="@+id/linearlayoutimage_pendaftaran"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:layout_marginTop="20dp"
+        android:layout_row="0"
+        android:weightSum="1">
+
+        <GridLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/btn_daftar_test_on_site"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:text="Formulir\nPendaftaran\nTest On-Site"
+                android:background="#fe402b"
+                android:textColor="#FFFF"
+                android:layout_column="0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/btn_daftar_test_online"
+                android:layout_column="1"
+                android:layout_width="110dp"
+                android:padding="2sp"
+                android:layout_height="wrap_content"
+                android:text="Formulir\nPendaftaran\nTest Online"
+                android:background="#9ad268"
+                android:textColor="#FFFF"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/btn_blended_learning"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="2dp"
+                android:padding="2sp"
+                android:text="Formulir\nBlended\nLearning"
+                android:background="#4dd4fd"
+                android:textColor="#FFFF" />
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout_scrollview"
+        android:layout_below="@+id/linearlayout_btn_pendaftaran"
+        android:layout_width="375dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:background="#FFFF">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtpotonganbiaya"
+                android:layout_margin="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/potongan_biaya" />
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

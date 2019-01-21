@@ -14,7 +14,7 @@
         android:id="@+id/linearlayoutimage"
         android:layout_width="360dp"
         android:layout_height="160dp"
-            android:layout_centerHorizontal="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="125dp">
 
         <ViewFlipper
@@ -42,7 +42,7 @@
             android:drawableTop="@drawable/info"
             android:drawablePadding="5sp"
             android:layout_gravity="center_horizontal"
-            android:text="About Us"
+            android:text="Tentang"
             android:layout_margin="4dp"
             android:drawingCacheQuality="high"
             android:textColor="#FFFF" />

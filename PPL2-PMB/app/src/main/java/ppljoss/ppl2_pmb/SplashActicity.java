@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class SplashActicity extends AppCompatActivity {
 
     private TextView tv;
-    private ImageView iv;
+    private ImageView iv, iv_pendaftaran;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,5 +39,7 @@ public class SplashActicity extends AppCompatActivity {
             }
         };
         timer.start();
+
+
     }
 }

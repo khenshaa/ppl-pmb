@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
 public class MainActivity extends AppCompatActivity {
-    public Button btn_kemahasiswaan, btn_risetpublikasi, btn_about, btn_fakultas, btn_berita, btn_kantor, btn_SDM, btn_website;
+    public Button btn_kemahasiswaan, btn_risetpublikasi, btn_about, btn_fakultas, btn_berita, btn_kantor, btn_SDM, btn_website, btn_pendaftaran;
     public ViewFlipper v_flipper;
 
     @Override
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         init_SDM();
         init_kantor();
         init_webuai();
+        init_pendaftaran();
 
 
         v_flipper= (ViewFlipper) findViewById(R.id.v_flipper);
@@ -131,6 +132,18 @@ public class MainActivity extends AppCompatActivity {
                 Intent towebuai = new Intent(MainActivity.this, WebsiteUAIactivity.class);
 
                 startActivity(towebuai);
+            }
+        });
+    }
+
+    private void init_pendaftaran() {
+        btn_pendaftaran = (Button) findViewById(R.id.button_pendaftaran);
+        btn_pendaftaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent topendaftaran = new Intent(MainActivity.this, Pendaftaran.class);
+
+                startActivity(topendaftaran);
             }
         });
     }

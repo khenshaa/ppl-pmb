@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ppljoss.ppl2_pmb.Fragment.JalurMasukFragment"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/tvjalurmasuk"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/juduljalurmasuk"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_below="@id/tvjalurmasuk"
+        android:id="@+id/scViewJalurMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvtestreguler"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/jalurreguler" />
+
+                <TextView
+                    android:id="@+id/tvjalurunggulan"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/jalurunggulan" />
+
+                <TextView
+                    android:id="@+id/tvjalurpmdk"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/jalurpmdk" />
+
+                <TextView
+                    android:id="@+id/tvjalurpmdkkelas"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/jalurpmdkkelas"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:id="@+id/tvjalurpmdkplus"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/jalurpmdkplus" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

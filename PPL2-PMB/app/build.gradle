@@ -1,3 +1,4 @@
+//noinspection GradleCompatible
 apply plugin: 'com.android.application'
 
 android {
@@ -17,6 +18,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
 }
 
 dependencies {
@@ -24,6 +26,9 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
+
+
 
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:design:26.+'
@@ -35,8 +40,19 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.ms-square:expandableTextView:0.1.4'
     compile 'com.borjabravo:readmoretextview:2.0.1'
-    testCompile 'junit:junit:4.12'
-
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.daimajia.slider:library:1.1.5@aar'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'org.sufficientlysecure:html-textview:3.2'
+    compile 'com.basgeekball:awesome-validation:2.0'
+
+
+
+
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }

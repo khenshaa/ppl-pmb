@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Fakultas"
     android:background="@drawable/bg"
+    android:theme="@style/AppTheme.NoActionBar"
     >
 
     <RelativeLayout

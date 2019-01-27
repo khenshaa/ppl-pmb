@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_test_online">
+    tools:context="ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_test_online"
+    android:theme="@style/AppTheme.NoActionBar">
+
+
+    <WebView
+        android:id="@+id/webviewtestonline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </android.support.constraint.ConstraintLayout>

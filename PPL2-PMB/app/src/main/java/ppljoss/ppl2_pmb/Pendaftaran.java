@@ -14,14 +14,21 @@ import com.daimajia.slider.library.Tricks.ViewPagerEx;
 
 import java.util.HashMap;
 
+import ppljoss.ppl2_pmb.Pendaftaran_pack.BiayaPerkuliahan;
 import ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_blended_learning;
 import ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_test_online;
 import ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_test_onsite;
+import ppljoss.ppl2_pmb.Fragment.JalurMasukFragment;
+import ppljoss.ppl2_pmb.Pendaftaran_pack.JalurMasuk;
 import ppljoss.ppl2_pmb.Pendaftaran_pack.LoginActivity;
 
 public class Pendaftaran extends AppCompatActivity implements BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {
     public Button btn_pendaftaran_form_test_on_site, btn_pendaftaran_form_test_online, btn_pendaftaran_blended_learning, btn_login_pendaftaran;
     public Button btn_infobiaya, btn_jalurmasuk, btn_faq, btn_edit_profile;
+
+    ////MENU
+
+
 
     //ImageSlider Inisialisai
     SliderLayout sliderLayout;
@@ -38,6 +45,8 @@ public class Pendaftaran extends AppCompatActivity implements BaseSliderView.OnS
         init_pendaftaran_test_online();
         init_pendaftaran_blended_learning();
         init_login_pendaftaran();
+        init_jalur_masuk();
+        init_info_biaya();
 
         //ImageSlider
         Hash_file_maps = new HashMap<String, String>();
@@ -118,6 +127,31 @@ public class Pendaftaran extends AppCompatActivity implements BaseSliderView.OnS
                 Intent tologin = new Intent(Pendaftaran.this, LoginActivity.class);
 
                 startActivity(tologin);
+            }
+        });
+    }
+
+    public void init_jalur_masuk() {
+        btn_jalurmasuk = (Button) findViewById(R.id.btn_jalurmasuk);
+        btn_jalurmasuk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tojalurmasuk = new Intent(Pendaftaran.this, JalurMasuk.class);
+
+                startActivity(tojalurmasuk);
+            }
+        });
+    }
+
+
+    public void init_info_biaya() {
+        btn_infobiaya = (Button) findViewById(R.id.btn_infobiaya);
+        btn_infobiaya.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toinfobiaya = new Intent(Pendaftaran.this, BiayaPerkuliahan.class);
+
+                startActivity(toinfobiaya);
             }
         });
     }

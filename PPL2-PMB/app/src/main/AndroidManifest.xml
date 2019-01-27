@@ -2,50 +2,95 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ppljoss.ppl2_pmb">
 
-
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/uai_logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme2">
-        <activity android:name=".SplashActicity">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActicity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".kemahasiswaan" />
-        <activity android:name=".risetpublikasi" />
-        <activity android:name=".About" />
-        <activity android:name=".Fakultas" />
-        <activity android:name=".Faculty.Feb" />
-        <activity android:name=".Faculty.Fispol" />
-        <activity android:name=".Faculty.Fst" />
-        <activity android:name=".Faculty.Hukum" />
-        <activity android:name=".Faculty.PgPaud" />
-        <activity android:name=".Faculty.SasBud" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".BeritaActivity" />
-        <activity android:name=".SDMactivity" />
-        <activity android:name=".KantorInternasional" />
-        <activity android:name=".WebsiteUAIactivity" />
-        <activity android:name=".Pendaftaran" />
-        <activity android:name=".Pendaftaran_pack.Formulir_test_onsite" />
-        <activity android:name=".Pendaftaran_pack.Formulir_test_online" />
-        <activity android:name=".Pendaftaran_pack.Formulir_blended_learning" />
+        <activity
+            android:name=".kemahasiswaan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".risetpublikasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fakultas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Faculty.Feb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Faculty.Fispol"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Faculty.Fst"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Faculty.Hukum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Faculty.PgPaud"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Faculty.SasBud"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BeritaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SDMactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KantorInternasional"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebsiteUAIactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pendaftaran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pendaftaran_pack.Formulir_test_online"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pendaftaran_pack.Formulir_blended_learning"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Pendaftaran_pack.LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity android:name=".EditProfile" />
+        <activity
+            android:name=".Pendaftaran_pack.Formulir_test_onsite"
+            android:label="@string/title_activity_drawer_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pendaftaran_pack.BiayaPerkuliahan" />
+        <activity android:name=".Pendaftaran_pack.JalurMasuk" />
+        <activity android:name=".PotonganBiaya"></activity>
     </application>
 
 </manifest>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ppljoss.ppl2_pmb.Faculty.Fst">
+    tools:context="ppljoss.ppl2_pmb.Faculty.Fst"
+    android:theme="@style/AppTheme.NoActionBar">
 
     <WebView
         android:id="@+id/webviewfst"

@@ -115,11 +115,16 @@
             <li> Calon Mahasiswa yang memiliki saudara kandung di UAI</li>\n
             <li> Calon Mahasiswa yang tidak memiliki Ayah (Yatim)</li>\n
             <li> Mahasiswa Pindahan D3 (Linier)</li>\n
-            <li> Mahasiswa Pindahan D3 (Non Linier)</li>\n
+            <li> Mahasiswa Pindahan D3 (Non Linier)</li>
         </ol>
-        </p>\n
+        </p>
 
-         <b><big><u>Jalur Masuk</u></big></b>\n
+
+    </string>
+
+
+    <string name="jalur_masuk">
+        <b><big><u>Jalur Masuk</u></big></b>\n
         <ul type="A">
         <li><b>Test Seleksi / Reguler</b></li>\n
         <i>06 Januari 2019 - 15 Februari 2019</i>
@@ -128,9 +133,41 @@
         <i>06 Januari 2019 - 15 Februari 2019</i>\n
         <li><b>PMDK Tahap 1</b></li>\n
         <i>07 Januari 2019 - 01 Maret 2019</i>
-</ul>
-        \n
+        </ul>
+      </string>
+
+    <string name="tgl_penting">
+        <b><big><u>Tanggal Penting</u></big></b>\n
+        <ul>
+            <li><b>Pendaftaran Mahasiswa Baru Gelombang I Tahap 3</b></li>\n
+            06 Januari 2019 - 15 Februari 2019\n
+            <li><b>Test Seleksi Mahasiswa Baru Gelombang I Tahap 3</b></li>\n
+            16 Februari 2019
+        </ul>
     </string>
+
+    <string name="ket_jalur_masuk">
+        <h5><strong><strong>Test Seleksi / Reguler</strong></strong></h5>
+        <p>Cara Pendaftaran:</p>
+        <ol>
+            <li>Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id</li>\n
+            <li>Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran)</li>\n
+            <li>Pilih jalur masuk tes seleksi</li>\n
+        </ol>
+        <hr />
+
+        <h5><strong><strong>Unggulan</strong></strong></h5>
+        <p>Persyaratan Pendaftaran:</p>
+        <ol>
+            <li>Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI</li>\n
+            <li>Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,0 pada kelas 10, 11, dan 12 (semester ganjil) untuk SMA sederajat dengan Akreditasi A, atau</li>
+        </ol>
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
     <string name="title_activity_login">Log In</string>
 
     <!-- Strings related to login -->
@@ -145,6 +182,21 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_drawer_activity">Pendafaran On-Site</string>
 
+    <string name="action_settings">Settings</string>
+
+
+    <!--- Formulir -->
+    <string name="email">Kolom email harus di isi</string>
+    <string name="password">Kolom password harus di isi </string>
+    <string name="retype">Konfirmasi Password tidak sama dengan Password</string>
+    <string name="nama">Kolom nama harus di isi</string>
+    <string name="tempatlahir">Kolom tempat lahir harus di isi</string>
+    <string name="tanggallahir">Kolom tanggal lahir harus di isi</string>
+    <string name="nohpcamaru">Kolom nomor hp mahasiswa harus di isi</string>
+    <string name="nohportu">Kolom nomor hp orang tua harus di isi</string>
+    <string name="alamat">Kolom alamat harus di isi</string>
+    <string name="kecamatan">Kolom kecamatan harus di isi</string>
 
 </resources>

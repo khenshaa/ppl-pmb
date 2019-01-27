@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="juduljalurmasuk"><u>Jalur Masuk</u></string>
+
+    <string name="jalurreguler">
+        <b><big><u>Test Seleksi / Reguler</u></big></b>\n
+    Cara Pendaftaran:\n
+        1.Mengisi formulir pendaftaran\n
+        2.Mengikuti petunjuk pendaftaran online\n
+        3.Pilih jalur masuk tes seleksi\n
+    </string>
+
+
+    <string name="jalurunggulan">
+        <b><big><u>Unggulan</u></big></b>\n
+        <p>Persyaratan Pendaftaran:
+            \n1.Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI 
+            \n2.Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,0 pada kelas 10, 11, dan 12 (semester ganjil) untuk SMA sederajat dengan Akreditasi A atau B \n
+         </p> \n
+        <p>Cara Pendaftaran:\n 
+            1.Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id\n
+            2.Mengikuti petunjuk pendaftaran online\n
+            3.Pilih jalur masuk unggulan\n
+             4.Melakukan pembayaran pendaftaran calon mahasiswa baru\n
+             5.Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil)\n
+             6.Melampirkan Surat Keterangan dari Kepala Sekolah bahwa ybs benar memperoleh rata-rata nilai minimal 7,0 untuk Sekolah dengan Akreditasi A, dan nilai minimal 7,5 untuk Sekolah dengan Akreditasi B.\n
+             7.Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110. \n
+            \n 
+        </p>
+        <p>Keuntungan:\n <ul>\n
+              <li>Bagi yang lulus berkas tidak perlu tes seleksi.</li>\n
+             </ul>
+        </p>
+
+    </string>
+
+    <string name="jalurpmdk">
+        <b><big><u>PMDK</u></big></b>\n
+        <p>Persyaratan:\n1.Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI
+            \n2.Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,5 pada kelas 10, 11, dan 12 (semester ganjil)
+            \n3.Jumlah terbatas\n
+        <p>Cara Pendaftaran:\n 
+         
+            1.Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id\n
+            2.Mengikuti petunjuk pendaftaran online\n
+            3.Pilih jalur masuk PMDK\n
+             4.Melakukan pembayaran pendaftaran calon mahasiswa baru\n
+             5.Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil)\n
+             6.Melampirkan Surat Keterangan dari Kepala Sekolah bahwa ybs benar memperoleh rata-rata nilai minimal 7,5\n
+             7.Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110. 
+            \n\n 
+        </p>
+         <p>Keuntungan:\n 1.Bagi yang lulus berkas dan seleksi nilai rapor, tidak perlu tes seleksi\n2.Mendapatkan potongan BPP 25%\n
+             \n
+        </p>
+        </p>
+    </string>
+
+    <string name="jalurpmdkkelas">
+       <b><big><u>PMDK Prestasi Kelas</u></big></b>
+       \nPersyaratan Pendaftaran:\n
+       1.Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI 
+       \n2.SMA sederajat dengan Akreditasi A         \n3.Memperoleh peringkat 1 sd 5 besar di kelas.         \n4.Jumlah terbatas         \n     Cara Pendaftaran:\n      1.Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id         \n2.Mengikuti petunjuk pendaftaran online          \n3.Pilih jalur masuk PMDK Prestasi\n         4.Melakukan pembayaran pendaftaran calon mahasiswa baru         \n5.Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil)\n          6.Melampirkan Surat Keterangan dari Kepala Sekolah bahwa ybs benar menduduki ranking 1 sd 5 besar di kelas.\n         7.Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110. 
+     </string>
+
+    <string name="jalurpmdkplus">
+       <b><big><u>PMDK Plus (Prestasi Bidang Seni dan Olah Raga)</u></big></b>
+    </string>
+
+
+    <string name="potonganbiaya">
+        UAI memberikan potongan biaya masuk kepada:\n\n
+
+    <b><big><u>A.Lulusan SMA Islam Al Azhar (YPI)</u></big></b>\n
+    Bagi lulusan SMA Islam Al Azhar (YPI) diberikan keringanan sebagai berikut:\n
+    1.Bebas tes masuk UAI\n
+    2.Potongan BPP (Biaya Pembangunan) sebesar 25% dari BPP (ranking I) yang berlaku untuk program studi yang dipilih\n
+    3.Untuk biaya BOP-SKS dan biaya lainnya (Pendaftaran, Herregistrasi/Administrasi, Jaket, Matrikulasi Bahasa Inggris, Perpustakaan dan KTM) tetap membayar penuh\n
+
+    </string>
+
+
+</resources>

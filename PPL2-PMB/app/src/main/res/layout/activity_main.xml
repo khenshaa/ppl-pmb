@@ -7,7 +7,8 @@
     android:background="@drawable/backgroung_uai_pmb"
     tools:context="ppljoss.ppl2_pmb.MainActivity"
     android:id="@+id/main_layout_home"
-    android:drawingCacheQuality="high">
+    android:drawingCacheQuality="high"
+    android:theme="@style/AppTheme.NoActionBar">
 
 
     <LinearLayout

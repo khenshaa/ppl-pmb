@@ -81,16 +81,21 @@
             android:name=".Pendaftaran_pack.Formulir_blended_learning"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Pendaftaran_pack.LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".EditProfile" />
+            android:name=".EditProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Pendaftaran_pack.Formulir_test_onsite"
             android:label="@string/title_activity_drawer_activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Pendaftaran_pack.BiayaPerkuliahan" />
         <activity android:name=".Pendaftaran_pack.JalurMasuk" />
-        <activity android:name=".PotonganBiaya"></activity>
+        <activity android:name=".PotonganBiaya" />
+        <activity
+            android:name=".Faq"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"></activity>
     </application>
 
 </manifest>

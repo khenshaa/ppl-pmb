@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ppljoss.ppl2_pmb.Pendaftaran_pack.LoginActivity">
+    tools:context="ppljoss.ppl2_pmb.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content">
 
                 <AutoCompleteTextView
-                    android:id="@+id/emaillogin"
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/prompt_email"
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/passwordlogin"
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/prompt_password"

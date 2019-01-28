@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ppljoss.ppl2_pmb.Faq"
+    android:background="#375a90">
+
+    <TextView
+        android:id="@+id/tvjudulfaq"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/judulfaq"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFF" />
+
+    <ScrollView
+        android:layout_below="@id/tvjudulfaq"
+        android:id="@+id/scViewfaq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvfaq1"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/faq1"
+                    android:textColor="#FFFF" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/faq2"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/faq2"
+                    android:textColor="#FFFF" />
+
+                <TextView
+                    android:id="@+id/faq3"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/faq3"
+                    android:textColor="#FFFF" />
+
+                <TextView
+                    android:id="@+id/faq4"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/faq4"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/faq5"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/faq5"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/faq6"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/faq6"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

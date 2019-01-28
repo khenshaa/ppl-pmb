@@ -42,6 +42,7 @@ import java.util.List;
 
 import cz.msebera.android.httpclient.Header;
 import ppljoss.ppl2_pmb.Fragment.BiayaPerkuliahanFragment;
+import ppljoss.ppl2_pmb.Fragment.FaqFragment;
 import ppljoss.ppl2_pmb.Fragment.JalurMasukFragment;
 import ppljoss.ppl2_pmb.Fragment.PotonganBiayaFragment;
 import ppljoss.ppl2_pmb.Pendaftaran;
@@ -224,8 +225,26 @@ public class Formulir_test_onsite extends AppCompatActivity
         awesomeValidation.addValidation(Formulir_test_onsite.this, R.id.etxpassword, regexPassword, R.string.password);// tambahan di string.xml
         awesomeValidation.addValidation(Formulir_test_onsite.this, R.id.etxretype, R.id.etxpassword, R.string.retype);// tambahan di string.xml
         awesomeValidation.addValidation(Formulir_test_onsite.this, R.id.etxnamalengkap, "[a-zA-Z\\s]+", R.string.nama);// tambahan di string.xml
-        awesomeValidation.addValidation(Formulir_test_onsite.this, R.id.etxnohp, TELEPHONE, R.string.nohpcamaru);// tambahan di string.xml
-        awesomeValidation.addValidation(Formulir_test_onsite.this, R.id.etxnohportu, TELEPHONE, R.string.nohportu);// tambahan di string.xml
+        awesomeValidation.addValidation(Formulir_test_onsite.this, R.id.etxnohp, RegexTemplate.TELEPHONE, R.string.nohpcamaru);// tambahan di string.xml
+        awesomeValidation.addValidation(Formulir_test_onsite.this, R.id.etxnohportu, RegexTemplate.TELEPHONE, R.string.nohportu);// tambahan di string.xml
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (awesomeValidation.validate()) {
+                    Toast.makeText(Formulir_test_onsite.this, "Data Received Succesfully", Toast.LENGTH_SHORT).show();
+                } else if (tempatlahir.length() == 0 || alamat.length() == 0 || tanggallahir.length() == 0 || nohpcamaru.length() == 0 ||
+                        nohportu.length() == 0 || kecamatan.length() == 0 || editTextsekolah.length() == 0) {
+                    tempatlahir.setError("Kolom tempat lahir harus di isi");
+                    tanggallahir.setError("Kolom tanggal lahir harus di isi");
+                    alamat.setError("Kolom alamat harus di isi");
+                    nohportu.setError("Kolom nomor hp orang tua harus di isi");
+                    nohpcamaru.setError("Kolom nomor hp camaru harus di isi");
+                    kecamatan.setError("Kolom kecamatan harus di isi");
+                    editTextsekolah.setError("Kolom sekolah asal harus di isi");
+                }
+            }
+        });
 
     }
 
@@ -418,6 +437,8 @@ public class Formulir_test_onsite extends AppCompatActivity
                     new JalurMasukFragment()).commit();
         } else if (id == R.id.faq) {
             Toast.makeText(getApplicationContext(), "FAQ", Toast.LENGTH_LONG).show();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new FaqFragment()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

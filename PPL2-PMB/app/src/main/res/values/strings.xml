@@ -1,12 +1,5 @@
 <resources>
     <string name="app_name">UAI</string>
-    <string name="Title">Workshop Seni Merangkai Bunga Jepang "Ikebana"</string>
-    <string name="description_txt">Tanggal 12 Desember 2018, Program Studi Sastra Jepang Universitas Al Azhar menyelanggarakan
-        kegiatan Workshop Seni Merangkai Bunga Jepang “Ikebana”. Workshop ini dibantu oleh voluntir dari Jepang, Ibu Kawai Reiko.
-        Workshop kali ini diselenggarakan dengan tujuan meningkatkan pemahaman terhadap nilai-nilai budaya Jepang, dengan melihat,
-        menyentuh, dan merasakan secara langsung. Kali ini tema yang diangkat adalah “Ikebana”.<br>
-        Aliran seni merangkai bunga yang dipelajari adalah aliran “Ikenobo” yang merukapan aliran ikebana terbesar di Jepang,
-        sedangkan gaya yang dipraktekan kali ini adalah gaya bebas atau disebut “Moribana”.</br></string>
     <string name="article1">
         <b><big>Profil Singkat</big></b>
         \n
@@ -146,23 +139,151 @@
         </ul>
     </string>
 
-    <string name="ket_jalur_masuk">
-        <h5><strong><strong>Test Seleksi / Reguler</strong></strong></h5>
-        <p>Cara Pendaftaran:</p>
-        <ol>
-            <li>Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id</li>\n
-            <li>Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran)</li>\n
-            <li>Pilih jalur masuk tes seleksi</li>\n
-        </ol>
-        <hr />
 
-        <h5><strong><strong>Unggulan</strong></strong></h5>
-        <p>Persyaratan Pendaftaran:</p>
-        <ol>
-            <li>Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI</li>\n
-            <li>Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,0 pada kelas 10, 11, dan 12 (semester ganjil) untuk SMA sederajat dengan Akreditasi A, atau</li>
-        </ol>
+    <string name="juduljalurmasuk"><u>Jalur Masuk</u></string>
+
+    <string name="jalurreguler">
+        <b><big><u>Test Seleksi / Reguler</u></big></b>\n
+    Cara Pendaftaran:\n
+        1.Mengisi formulir pendaftaran\n
+        2.Mengikuti petunjuk pendaftaran online\n
+        3.Pilih jalur masuk tes seleksi\n
     </string>
+
+
+    <string name="jalurunggulan">
+        <b><big><u>Unggulan</u></big></b>\n
+        <p>Persyaratan Pendaftaran:
+            \n1.Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI 
+            \n2.Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,0 pada kelas 10, 11, dan 12 (semester ganjil) untuk SMA sederajat dengan Akreditasi A atau B \n
+         </p> \n
+        <p>Cara Pendaftaran:\n 
+            1.Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id\n
+            2.Mengikuti petunjuk pendaftaran online\n
+            3.Pilih jalur masuk unggulan\n
+             4.Melakukan pembayaran pendaftaran calon mahasiswa baru\n
+             5.Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil)\n
+             6.Melampirkan Surat Keterangan dari Kepala Sekolah bahwa ybs benar memperoleh rata-rata nilai minimal 7,0 untuk Sekolah dengan Akreditasi A, dan nilai minimal 7,5 untuk Sekolah dengan Akreditasi B.\n
+             7.Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110. \n
+            \n 
+        </p>
+        <p>Keuntungan:\n <ul>\n
+              <li>Bagi yang lulus berkas tidak perlu tes seleksi.</li>\n
+             </ul>
+        </p>
+
+    </string>
+
+    <string name="jalurpmdk">
+        <b><big><u>PMDK</u></big></b>\n
+        <p>Persyaratan:\n1.Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI
+            \n2.Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,5 pada kelas 10, 11, dan 12 (semester ganjil)
+            \n3.Jumlah terbatas\n
+        <p>Cara Pendaftaran:\n 
+         
+            1.Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id\n
+            2.Mengikuti petunjuk pendaftaran online\n
+            3.Pilih jalur masuk PMDK\n
+             4.Melakukan pembayaran pendaftaran calon mahasiswa baru\n
+             5.Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil)\n
+             6.Melampirkan Surat Keterangan dari Kepala Sekolah bahwa ybs benar memperoleh rata-rata nilai minimal 7,5\n
+             7.Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110. 
+            \n\n 
+        </p>
+         <p>Keuntungan:\n 1.Bagi yang lulus berkas dan seleksi nilai rapor, tidak perlu tes seleksi\n2.Mendapatkan potongan BPP 25%\n
+             \n
+        </p>
+        </p>
+    </string>
+
+    <string name="jalurpmdkkelas">
+       <b><big><u>PMDK Prestasi Kelas</u></big></b>
+       \nPersyaratan Pendaftaran:\n
+       1.Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI 
+       \n2.SMA sederajat dengan Akreditasi A         \n3.Memperoleh peringkat 1 sd 5 besar di kelas.         \n4.Jumlah terbatas         \n     Cara Pendaftaran:\n      1.Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id         \n2.Mengikuti petunjuk pendaftaran online          \n3.Pilih jalur masuk PMDK Prestasi\n         4.Melakukan pembayaran pendaftaran calon mahasiswa baru         \n5.Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil)\n          6.Melampirkan Surat Keterangan dari Kepala Sekolah bahwa ybs benar menduduki ranking 1 sd 5 besar di kelas.\n         7.Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110. 
+     </string>
+
+    <string name="jalurpmdkplus">
+       <b><big><u>PMDK Plus (Prestasi Bidang Seni dan Olah Raga)</u></big></b>
+    </string>
+
+
+    <string name="tahapan_selanjutnya2">
+    <b><big>Tahapan Selanjutnya</big></b>\n
+
+        <ol>
+            <li> 1.  Upload foto terbaru Anda. Ketentuan upload foto: \n
+                a. Tipe file yang diijinkan: JPG, JPEG, PNG \n
+                b. Ukuran File maksimal 500 KB \n
+                c. Bila Anda mengupload Foto lebih dari satu kali, Foto yang digunakan adalah yang terakhir diupload.
+            </li>\n
+            <li> 2. Setelah upload foto, sistem akan menampilkan informasi No Rekening untuk pembayaran biaya pendaftaran. </li>\n
+            <li> 3. Setelah melakukan pembayaran, silakan cetak kartu ujian. Kartu ujian dapat dicetak H-2 sebelum ujian berlangsung.</li>\n
+            <li> 4. Anda diwajibkan membawa kartu ujian dan bukti pembayaran saat tes seleksi </li>\n
+            <li> 5. Hasil test akan diumumkan 2-7 hari setelah test berlangsung. Hasil test dapat dilihat di menu Informasi Kelulusan </li>\n
+
+        </ol>
+        \n\n
+    </string>
+
+
+    <string name="judulpotonganbiaya">
+        <b><big><u>Potongan Biaya</u></big></b>\n\n\n
+    </string>
+
+
+    <string name="info_tes2">
+
+        <b><big>Informasi Soal Tes</big></b> \n
+        <ol>
+            <li> 1.  Tes Potensi Akademik \n
+                     a. Kuantitatif Matematika \n
+                     b. Verbal Bahasa Indonesia \n
+                     c. BSpasial mencocokan gambar </li>\n
+            <li> 2. Tes Bahasa Inggris </li>\n
+     </ol>
+    </string>
+
+
+    <string name="judulfaq">
+         <b><big><u>FAQ - Frequence Asked Question</u></big></b>
+    </string>
+    <string name="faq1">
+        Q: Bagaimana cara mendaftar secara online?\n
+        A: Petunjuk mendaftar secara online
+    </string>
+
+    <string name="faq2">
+        Q: Saya tidak dapat login\n
+        A: 1. Petunjuk mendaftar secara online\n
+           2. Pastikan username dan password yang Anda masukkan benar.P erhatikan huruf besar dan kecil berpengaruh di password Anda.
+     </string>
+
+    <string name="faq3">
+        Q: Saya kesulitan dalam meng-upload Foto dan dokumen lainnya.\n
+        A: 1. Tipe File yang diperbolehkan yaitu JPG/JPEG.\n
+           2. Ukuran file maksimal 500KB.
+     </string>
+
+    <string name="faq4">
+        Q: Saya kesulitan dalam meng-upload Foto dan dokumen lainnya.\n
+        A: 1. Tipe File yang diperbolehkan yaitu JPG/JPEG.\n
+           2. Ukuran file maksimal 500KB.
+     </string>
+
+
+    <string name="faq5">
+        Q: Mengapa saya tidak dapat mengganti data saya?
+        A: 1.Batas waktu edit data yaitu 7(tujuh) hari setelah proses pendaftaran.\n
+           2.Pastikan kolom yang bertanda (*) telah Anda isi.
+    </string>
+
+    <string name="faq6">
+        Q: Masalah saya tidak ada di FAQ
+        A: Bila masalah Anda tidak ada di FAQ kami, silakan hubungi kami di\n
+        Penerimaan Mahasiswa Baru UAI\nUniversitas Al Azhar Indonesia Komplek Masjid Agung Al Azhar Jakarta 12110\nTelp: (021) 727 92753\nFax: (021) 724 4767\nE-Mail: pmb@uai.ac.id 
+    </string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -173,18 +294,13 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Enter Email</string>
     <string name="prompt_password">Enter Password</string>
-    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in">Log in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
     <string name="title_activity_drawer_activity">Pendafaran On-Site</string>
-
-    <string name="action_settings">Settings</string>
 
 
     <!--- Formulir -->
@@ -192,11 +308,10 @@
     <string name="password">Kolom password harus di isi </string>
     <string name="retype">Konfirmasi Password tidak sama dengan Password</string>
     <string name="nama">Kolom nama harus di isi</string>
-    <string name="tempatlahir">Kolom tempat lahir harus di isi</string>
-    <string name="tanggallahir">Kolom tanggal lahir harus di isi</string>
     <string name="nohpcamaru">Kolom nomor hp mahasiswa harus di isi</string>
     <string name="nohportu">Kolom nomor hp orang tua harus di isi</string>
-    <string name="alamat">Kolom alamat harus di isi</string>
-    <string name="kecamatan">Kolom kecamatan harus di isi</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 
 </resources>

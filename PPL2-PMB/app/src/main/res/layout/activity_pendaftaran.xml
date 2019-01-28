@@ -157,12 +157,13 @@
                 android:layout_width="85dp"
                 android:layout_height="50dp"
                 android:layout_centerHorizontal="true"
-                android:text="Edit\nProfile"
+                android:text="Profile"
                 android:background="#4788c7"
                 android:textColor="#FFFF"
                 android:layout_column="3"
                 android:textSize="12sp"
                 android:layout_margin="2dp"
+                android:layout_marginTop="10dp"
                 android:layout_gravity="fill_horizontal" />
 
 

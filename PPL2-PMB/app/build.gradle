@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "ppljoss.ppl2_pmb"
         minSdkVersion 16
@@ -22,33 +21,33 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
 
 
 
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support:design:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
-    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
-    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
-    compile 'com.daimajia.easing:library:2.0@aar'
-    compile 'com.daimajia.androidanimations:library:2.3@aar'
-    compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.ms-square:expandableTextView:0.1.4'
-    compile 'com.borjabravo:readmoretextview:2.0.1'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.daimajia.slider:library:1.1.5@aar'
-    compile 'com.squareup.retrofit2:retrofit:2.0.2'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
-    compile 'com.jakewharton:butterknife:8.5.1'
-    compile 'com.loopj.android:android-async-http:1.4.9'
-    compile 'org.sufficientlysecure:html-textview:3.2'
-    compile 'com.basgeekball:awesome-validation:2.0'
-    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.android.support:design:26.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    implementation 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    implementation 'com.android.support:cardview-v7:26.0.0-alpha1'
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.ms-square:expandableTextView:0.1.4'
+    implementation 'com.borjabravo:readmoretextview:2.0.1'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation  'com.squareup.retrofit2:converter-gson:2.0.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.jakewharton:butterknife:8.5.1'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'org.sufficientlysecure:html-textview:3.2'
+    implementation 'com.basgeekball:awesome-validation:4.2'
+    testImplementation 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }

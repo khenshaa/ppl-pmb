@@ -74,8 +74,6 @@ public class ReadRss extends AsyncTask<Void, Void, Void> {
             Element root = data.getDocumentElement();
             Node channel = root.getChildNodes().item(1);
             NodeList items = channel.getChildNodes();
-
-
             for (int i = 0; i < items.getLength(); i++) {
                 Node cureentchild = items.item(i);
                 if (cureentchild.getNodeName().equalsIgnoreCase("item")) {
@@ -91,13 +89,11 @@ public class ReadRss extends AsyncTask<Void, Void, Void> {
                             item.setPubDate(cureent.getTextContent());
                         } else if (cureent.getNodeName().equalsIgnoreCase("link")) {
                             item.setLink(cureent.getTextContent());
-                        } else if (cureent.getNodeName().equalsIgnoreCase("encoded:__cdata")) {
+                        } else if (cureent.getNodeName().equalsIgnoreCase("media:thumbnail")) {
                             //this will return us thumbnail url
                             String url = cureent.getAttributes().item(0).getTextContent();
                             item.setThumbnailUrl(url);
                         }
-
-
                     }
                     feedItems.add(item);
 

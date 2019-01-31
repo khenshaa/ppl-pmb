@@ -1,4 +1,4 @@
-package ppljoss.ppl2_pmb;
+package ppljoss.ppl2_pmb.Pendaftaran_pack;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -15,7 +15,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class EditProfile extends AppCompatActivity {
+import ppljoss.ppl2_pmb.R;
+
+public class EditPhoto extends AppCompatActivity {
 
     private TextView textViewtahapan, textViewiformasi;
     private ImageView imageViewProfile;
@@ -25,7 +27,7 @@ public class EditProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_profile);
+        setContentView(R.layout.activity_edit_photo);
 
         //view
         imageViewProfile = (ImageView) findViewById(R.id.fotoprofileuser);

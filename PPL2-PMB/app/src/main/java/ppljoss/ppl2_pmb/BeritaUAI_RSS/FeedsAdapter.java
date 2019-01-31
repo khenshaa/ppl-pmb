@@ -29,7 +29,6 @@ public class FeedsAdapter extends RecyclerView.Adapter<FeedsAdapter.MyViewHolder
         this.feedItems = feedItems;
         this.context = context;
     }
-
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.custom_row_news_item, parent, false);
@@ -49,6 +48,7 @@ public class FeedsAdapter extends RecyclerView.Adapter<FeedsAdapter.MyViewHolder
     }
 
 
+
     @Override
     public int getItemCount() {
         return feedItems.size();
@@ -58,7 +58,6 @@ public class FeedsAdapter extends RecyclerView.Adapter<FeedsAdapter.MyViewHolder
         TextView Title, Description, Date;
         ImageView Thumbnail;
         CardView cardView;
-
         public MyViewHolder(View itemView) {
             super(itemView);
             Title = (TextView) itemView.findViewById(R.id.title_text);

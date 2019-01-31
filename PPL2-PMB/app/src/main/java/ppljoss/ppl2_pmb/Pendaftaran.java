@@ -15,6 +15,8 @@ import com.daimajia.slider.library.Tricks.ViewPagerEx;
 import java.util.HashMap;
 
 import ppljoss.ppl2_pmb.Pendaftaran_pack.BiayaPerkuliahan;
+import ppljoss.ppl2_pmb.Pendaftaran_pack.EditPhoto;
+import ppljoss.ppl2_pmb.Pendaftaran_pack.EditProfile;
 import ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_blended_learning;
 import ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_test_online;
 import ppljoss.ppl2_pmb.Pendaftaran_pack.Formulir_test_onsite;

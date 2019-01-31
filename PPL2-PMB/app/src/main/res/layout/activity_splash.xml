@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ppljoss.ppl2_pmb.SplashActicity">
+    tools:context="ppljoss.ppl2_pmb.SplashActicity"
+    android:background="#0C314A">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,10 +15,10 @@
 
         <ImageView
             android:id="@+id/iv"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="214dp"
+            android:layout_height="227dp"
             android:layout_gravity="center"
-            android:src="@drawable/uaifix" />
+            android:src="@drawable/logo_uai2" />
 
         <TextView
             android:id="@+id/tv"
@@ -25,7 +26,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Selamat Datang di UAI"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="30sp"
             android:textStyle="bold" />

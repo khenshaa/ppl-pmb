@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ppljoss.ppl2_pmb">
-
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -17,6 +16,8 @@
         android:roundIcon="@mipmap/uai_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Pendaftaran_pack.EditProfile"></activity>
+        <activity android:name=".LoginPendaftaran" />
         <activity
             android:name=".SplashActicity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -81,21 +82,27 @@
             android:name=".Pendaftaran_pack.Formulir_blended_learning"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".EditProfile"
+            android:name=".Pendaftaran_pack.EditPhoto"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Pendaftaran_pack.Formulir_test_onsite"
             android:label="@string/title_activity_drawer_activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Pendaftaran_pack.BiayaPerkuliahan" />
-        <activity android:name=".Pendaftaran_pack.JalurMasuk" />
-        <activity android:name=".PotonganBiaya" />
+        <activity
+            android:name=".Pendaftaran_pack.BiayaPerkuliahan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pendaftaran_pack.JalurMasuk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PotonganBiaya"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Faq"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
     </application>
 
 </manifest>

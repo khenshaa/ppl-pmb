@@ -10,8 +10,6 @@ public class FeedItem {
     String description;
     String pubDate;
     String thumbnailUrl;
-    private String item_image = "no image";
-    private String item_image2 = "no image";
 
     public String getTitle() {
         return title;
@@ -51,26 +49,5 @@ public class FeedItem {
 
     public void setThumbnailUrl(String thumbnailUrl) {
         this.thumbnailUrl = thumbnailUrl;
-    }
-
-    void setImage(String image) {
-        item_image = image;
-
-        item_image = image;
-    }
-
-    //this is used when getImage() fails (this happens when img is placed in content:encoded)
-    void setImage2(String image2) {
-
-        item_image2 = image2;
-    }
-
-    public String getImage() {
-        return item_image;
-    }
-
-    //this is used when getImage() fails (this happens when img is placed in content:encoded)
-    public String getImage2() {
-        return item_image2;
     }
 }

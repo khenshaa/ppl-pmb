@@ -232,7 +232,7 @@ public class Formulir_test_onsite extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 if (awesomeValidation.validate()) {
-                    Toast.makeText(Formulir_test_onsite.this, "Data Received Succesfully", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Formulir_test_onsite.this, "Data Saved", Toast.LENGTH_SHORT).show();
                 } else if (tempatlahir.length() == 0 || alamat.length() == 0 || tanggallahir.length() == 0 || nohpcamaru.length() == 0 ||
                         nohportu.length() == 0 || kecamatan.length() == 0 || editTextsekolah.length() == 0) {
                     tempatlahir.setError("Kolom tempat lahir harus di isi");
@@ -243,6 +243,10 @@ public class Formulir_test_onsite extends AppCompatActivity
                     kecamatan.setError("Kolom kecamatan harus di isi");
                     editTextsekolah.setError("Kolom sekolah asal harus di isi");
                 }
+
+                Intent toeditphoto = new Intent(Formulir_test_onsite.this, EditPhoto.class);
+
+                startActivity(toeditphoto);
             }
         });
 
@@ -252,9 +256,13 @@ public class Formulir_test_onsite extends AppCompatActivity
     //*************************SETTING API******************************************
     //method API data sekolah
     private void getDataSekolah() {
-        String url = "https://studentdesk.uai.ac.id/rest/index.php/api/camaru/getSekolah/format/json";
+
+        //inisialisasi API
+        String url = "https://studentdesk.uai.ac.id/rest/index.php/api/camaru/getSekolah/format/json/";
         AsyncHttpClient client = new AsyncHttpClient();
         client.setBasicAuth("admin", "1234");
+        //
+
 
         client.get(url, new JsonHttpResponseHandler() {
             @Override
@@ -288,6 +296,7 @@ public class Formulir_test_onsite extends AppCompatActivity
             }
         });
     }
+
 
     //method API data jalur masuk
     private void getDataJalurMasuk() {

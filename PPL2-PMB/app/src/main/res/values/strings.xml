@@ -285,6 +285,116 @@
     </string>
 
 
+    <string name="potonganbiaya1">
+        <b><big>A.Lulusan SMA Islam Al Azhar (YPI)</big></b>\n
+
+        Bagi lulusan SMA Islam Al Azhar (YPI) diberikan keringanan sebagai berikut:\n
+
+        1. Bebas tes masuk UAI\n
+        2. Potongan BPP (Biaya Pembangunan) sebesar 25% dari BPP (ranking I) yang berlaku untuk program studi yang dipilih\n
+        3. Untuk biaya BOP-SKS dan biaya lainnya (Pendaftaran, Herregistrasi/Administrasi, Jaket, Matrikulasi Bahasa Inggris, Perpustakaan dan KTM) tetap membayar penuh\n
+    </string>
+
+    <string name="potonganbiaya2">
+        <b><big>B.Guru YPI Al Azhar</big></b>\n
+
+        Bagi guru-guru sekolah YPI Al Azhar yang akan melanjutkan ke S1 dapat diterima di UAI dengan ketentuan sebagai berikut:\n
+
+        1. Lulus tes masuk UAI\n
+        2. Pengurangan BPP (Biaya Pembangunan) sebesar 100% dari BPP yang berlaku untuk program studi yang dipilih.\n
+        3. Biaya BOP diberi keringanan 50% setiap semester.\n
+        4. Untuk biaya SKS dan biaya lainnya (Pendaftaran, Herregistrasi/Administrasi, Jaket, Matrikulasi Bahasa Inggris, Perpustakaan dan KTM) tetap membayar penuh.\n
+        5. Mata kuliah yang telah lulus/yang ada pada transkrip nilai akan diakui atau dikonversi ke program S1 bila memperoleh nilai minimal B\n
+        6. Membayar biaya konversi per matakuliah\n
+    </string>
+
+    <string name="potonganbiaya3">
+        <b><big>C.Putra/i Pegawai UAI</big></b>\n
+
+         Bagi putra/putri dosen/karyawan UAI diberikan keringanan dengan ketentuan sebagai berikut:\n
+
+        1. Lulus tes masuk UAI\n
+        2. Pengurangan BPP (Biaya Pembangunan) sebesar 50% dari BPP yang berlaku untuk program studi yang dipilih\n
+        3. Biaya BOP diberi keringanan 50% setiap semester\n
+        4. Untuk biaya SKS dan biaya lainnya tetap membayar penuh\n
+    </string>
+
+    <string name="potonganbiaya4">
+        <b><big>D.Putra/i Guru atau Karyawan YPI Al Azhar </big></b>\n
+
+         Bagi putra/putri Guru Sekolah YPI diberikan keringanan dengan ketentuan sebagai berikut:\n
+
+            1. Lulus tes masuk UAI\n
+            2. Pengurangan BPP (Biaya Pembangunan) sebesar 50% dari BPP yang berlaku untuk program studi yang dipilih.\n
+            3. Biaya BOP diberi keringanan 25% setiap semester.\n
+            4. Untuk biaya SKS dan biaya lainnya tetap membayar penuh.\n
+    </string>
+
+    <string name="potonganbiaya5">
+        <b><big>E.Putra/i Guru Non Sekolah YPI atau TNI-Polri</big></b>\n
+
+          Bagi putra/putri Guru Non Sekolah YPI atau TMI-Polri, diberikan keringanan dengan ketentuan sebagai berikut:\n
+
+            1. Lulus tes masuk UAI\n
+            2. Pengurangan BPP (Biaya Pembangunan) sebesar 40% dari BPP yang berlaku untuk program studi yang dipilih.\n
+            3. Biaya BOP diberi keringanan 20% setiap semester.\n
+            4. Untuk biaya SKS dan biaya lainnya tetap membayar penuh.\n
+    </string>
+
+    <string name="potonganbiaya6">
+        <b><big>F.Calon Mahasiswa yang memiliki saudara kandung di UAI</big></b>\n
+
+           Diberikan keringanan dengan ketentuan sebagai berikut:\n
+
+            1. Lulus tes masuk UAI\n
+            2. Pengurangan BPP (Biaya Pembangunan) sebesar 40% dari BPP yang berlaku untuk program studi yang dipilih.\n
+            3. Biaya BOP diberi keringanan 20% setiap semester.\n
+            4. Untuk biaya SKS dan biaya lainnya tetap membayar penuh.\n
+    </string>
+
+    <string name="potonganbiaya7">
+        <b><big>G.Calon Mahasiswa yang tidak memiliki Ayah (Yatim)</big></b>\n
+
+            Diberikan keringanan dengan ketentuan sebagai berikut\n
+
+                1. Lulus tes masuk UAI\n
+                2. Pengurangan BPP (Biaya Pembangunan) sebesar 40% dari BPP yang berlaku untuk program studi yang dipilih.\n
+                3. Biaya BOP diberi keringanan 20% setiap semester.\n
+                4. Untuk biaya SKS dan biaya lainnya tetap membayar penuh.\n
+    </string>
+
+    <string name="potonganbiaya8">
+        <b><big>H.Mahasiswa Pindahan D3 (Linier)</big></b>\n
+
+            	Bagi calon mahasiswa yang berasal dari perguruan tinggi lain dan telah lulus Sarjana Muda/ Diploma III dan akan melanjutkan ke S1 pada prodi yang sama (linier) bukan prodi lain dapat diterima di UAI dengan ketentuan sebagai berikut:\n
+
+                    1. Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id\n
+                    2. Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran)\n
+                    3. Pilih jalur masuk Pindahan Linier\n
+                    4. Melakukan pembayaran pendaftaran calon mahasiswa baru\n
+                    5. Bebas tes masuk UAI\n
+                    6. Pengurangan BPP (Biaya Pembangunan) sebesar 50% dari BPP (rangking I) yang berlaku untuk program studi yang dipilih\n
+                    7. Untuk Biaya BOP-SKS dan biaya lainnya (pendaftaran, Herregistrasi/Administrasi, jaket, perpustakaan dan KTM) tetap membayar penuh atau tidak discount\n
+                    8. Membayar Biaya konversi per mata kuliah\n
+                    9. Mata kuliah yang telah lulus/yang ada pada transkip nilai akan diakui, sesuai dengan ketentuan yang berlaku di Universitas Al Azhar Indonesia\n
+    </string>
+
+    <string name="potonganbiaya9">
+        <b><big>I.Mahasiswa Pindahan D3 (Non Linier)</big></b>\n
+
+            	 Bagi calon mahasiswa yang berasal dari perguruan tinggi lain dan telah lulus Sarjana Muda/ Diploma III dan akan melanjutkan ke S1 pada prodi yang berbeda (non linier) bukan prodi yang sama, dapat diterima di UAI dengan ketentuan sebagai berikut:\n
+
+                    1. Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id\n
+                    2. Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran)\n
+                    3. Pilih jalur masuk Pindahan Non Linier\n
+                    4. Melakukan pembayaran pendaftaran calon mahasiswa baru\n
+                    5. Mengikuti tes masuk UAI.\n
+                    6. Biaya BPP, BOP-SKS dan biaya lainnya (pendaftaran, Herregistrasi/Administrasi, jaket, perpustakaan dan KTM) dibayar penuh atau tidak discount.\n
+                    7. Membayar Biaya konversi per mata kuliah\n
+                    8. Mata kuliah yang telah lulus/yang ada pada transkip nilai akan diakui, sesuai dengan ketentuan yang berlaku di Universitas Al Azhar Indonesia\n
+    </string>
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
